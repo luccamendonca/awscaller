@@ -1,5 +1,10 @@
 # Albert AWS console opener plugin "awscaller"
 
+<p align="center">
+  <!-- <img src="https://i.imgur.com/gPCNyGQ.png" alt="Cover image"/> -->
+  <img src="https://i.imgur.com/2Uf93Rp.png" alt="Cover image"/>
+</p>
+
 This is a very simple Python extension for the Albert Launcher that aims to help us developers/devops by opening and AWS console page using the provided service name.
 
 ## Installation
@@ -25,6 +30,18 @@ aws ec2
 aws ecs
 ```
 
-## Roadmap
+---
 
-- Allow to open the console page on a specific region
+We also support query string parameters that can be used for pretty much anything AWS console supports doing via query strings.
+
+How to use:
+
+```
+aws <service> <key>:<value>...
+```
+
+Example:
+
+```
+aws ec2 region:us-east-1
+```
