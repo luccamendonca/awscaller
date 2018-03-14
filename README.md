@@ -15,6 +15,10 @@ This is a very simple Python extension for the Albert Launcher that aims to help
 git clone https://github.com/luccamendonca/awscaller /usr/share/albert/org.albert.extension.python/modules
 ```
 
+Then you just need to go to the Extension settings and enable the "awscaller" Python extension:
+
+![Enabling Python Extension](https://i.imgur.com/XlOlSNc.png)
+
 ## Usage
 
 To trigger the extension you should type `aws <service name>` to open the given service page on your aws console, or type only `aws` to open the console home.
