@@ -45,3 +45,7 @@ Example:
 ```
 aws ec2 region:us-east-1
 ```
+
+## Backlog
+
+- Allow specific querying for specific aws services, such as EC2 filters
